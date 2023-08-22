@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ejemplo04.js"></script>
+    <script>
+        let animal = new Animal("blanco", 5)
+        animal.comer()
+        animal.moverse()
+        
+        console.log("Clase hija Ave")
+        let ave = new Ave("blanco", 4, "Pajaro")
+        ave.comer()
+        ave.moverse()
+        ave.volar()
+
+        console.log("Clase hija Perro")
+        let perro = new Perro("blanco", 6, "Chihuahua")
+        perro.comer()
+        perro.moverse()
+        perro.ladrar()
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
