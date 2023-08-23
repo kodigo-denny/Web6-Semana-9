@@ -15,12 +15,21 @@
         ave.comer()
         ave.moverse()
         ave.volar()
+        ave.makeSound()
+
+        let human = new Human("Denny", "Herrera")
 
         console.log("Clase hija Perro")
-        let perro = new Perro("blanco", 6, "Chihuahua")
+        let perro = new Perro("blanco", 6, "Chihuahua", human)
         perro.comer()
         perro.moverse()
         perro.ladrar()
+        perro.mejorAmigo()
+        perro.makeSound()
+
+        console.log("Clase hija Gato")
+        let gato = new Gato("Blanco", 3)
+        gato.makeSound()
     </script>
 </head>
 <body>
